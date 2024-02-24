@@ -8,8 +8,7 @@ char line[UPPERLIM];
 int main(int argc, char const *argv[])
 {
     printf("Enter a blank line to terminate program. \n");
-    while((len = getLine(line, UPPERLIM)
-    )>1){
+    while((len = getLine(line, UPPERLIM))>1){
         if (len>LOWERLIM)
         {
             printf("\n length longer than %d, printing: \n %s \n", LOWERLIM, line);
